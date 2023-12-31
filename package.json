@@ -4,7 +4,9 @@
   "description": "Belajar membuat Restful API menggunakan Prisma ORM",
   "main": "src/main.js",
   "scripts": {
-    "test": "jest -i"
+    "test": "jest -i",
+    "dev": "node src/main.js"
+
   },
   "jest": {
     "transform": {
@@ -23,6 +25,7 @@
   "dependencies": {
     "@prisma/client": "^4.15.0",
     "bcrypt": "^5.1.0",
+    "dotenv": "^16.3.1",
     "express": "^4.18.2",
     "joi": "^17.9.2",
     "uuid": "^9.0.0",
